@@ -1,0 +1,47 @@
+.navbar{
+    height: 10vh;
+    z-index: -1;
+}
+.nav-item{
+    margin: 25px;
+    
+}
+
+h1,h2{
+  font-family: Arial,sans-serif;
+  font-weight: 400;
+}
+p{
+
+  font-family: Lato;
+  font-size: 1.2em;  
+}
+
+.line{
+    width: 112px;
+    height: 20px;
+    border-bottom: 5px solid limegreen;
+    margin: auto;
+
+    
+}
+
+.coverpage{
+  height: 100vh;
+  padding: 230px;
+  margin: auto;
+}
+
+
+@media (max-width: 978px) {
+  .coverpage {
+    padding:50px;
+    margin:0;
+  }
+}
+ 
+
+
+
+
+
